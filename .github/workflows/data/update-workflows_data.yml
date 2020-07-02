@@ -9,6 +9,8 @@ jobs:
       matrix:
         # Filenames without the extension. The data file name must match the workflow, but with a _data suffix
         filename: |
+          - template: compile-examples
+            workflow: compile-examples
           - template: spell-check
             workflow: spell-check
           - template: update-workflows
