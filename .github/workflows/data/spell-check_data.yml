@@ -4,4 +4,4 @@ jobs:
       spell-check:
         with:
           ignore-words-list: extras/codespell-ignore-words-list.txt
-          skip-paths: ./extras/test/external,./src/cbor/lib/tinycbor
+          skip-paths: ./extras/test/external,./src/cbor/lib/tinycbor,./foo/bar
