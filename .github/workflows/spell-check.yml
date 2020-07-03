@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Spell check
-        uses: arduino/actions/libraries/spell-check@master
+        uses: codespell-project/actions-codespell@master
         with:
-          ignore-words-list: extras/codespell-ignore-words-list.txt
-          skip-paths: ./extras/test/external,./src/cbor/lib/tinycbor
+          ignore_words_file: extras/codespell-ignore-words-list.txt
+          skip: ./.git,./extras/test/external,./src/cbor/lib/tinycbor
