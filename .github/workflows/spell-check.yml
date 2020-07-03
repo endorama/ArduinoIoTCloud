@@ -24,4 +24,4 @@ jobs:
         uses: codespell-project/actions-codespell@master
         with:
           ignore_words_file: extras/codespell-ignore-words-list.txt
-          skip: ./.git,./extras/test/external,./src/cbor/lib/tinycbor
+          skip: ./.git,./extras/test/external,./src/cbor/lib/tinycbor,./foo/bar
